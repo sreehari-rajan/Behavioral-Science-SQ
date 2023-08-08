@@ -1,0 +1,201 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #111;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url('background 2.jpg');
+  background-size: cover; /* This will make the image cover the entire background */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar {
+  background-color: rgba(51, 51, 51, 0);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  margin: none;
+  padding:0;
+}
+
+
+.navbar li.profile-icon {
+  margin-right: auto; /* This will push the navigation links to the right */
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.profile-icon img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+.CompanyLogo-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: left;
+}
+
+/* Hide the sign-out link by default */
+.sign-out {
+  display: none;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.profile-icon:hover .sign-out {
+  display: block;
+  margin-left:auto;
+}
+
+.sign-out a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sign-out a:hover {
+  background-color: #555;
+}
+
+
+.album-container,
+.movie-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.album-box,
+.movie-box {
+  width: 200px;
+  height: 200px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  margin: 10px;
+}
+
+.album-box img,
+.movie-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+
+/* Styling for the cookie pop-up */
+.cookiePopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #504343;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  z-index: 1;
+  display: none;
+}
+
+.cookiePopup.show {
+  display: block;
+}
+
+.cookiePopup.hide {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #6b7994;
+  border: none;
+  color: #d6d6d6;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#reject-btn {
+  background-color: #6b7994;
+  border: none;
+  color: #d6d6d6;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+#accept-btn {
+  background-color: #be4741;
+  border: none;
+  color: #08240e;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+/* ... (existing styles) */
+
+/* Additional styles for retro theme */
+.retro .navbar a {
+  color: #000; /* Set the text color to black */
+}
+
+.retro .navbar li.profile-icon img {
+  border: 2px solid #000; /* Set the border color to black */
+}
+
+.retro .CompanyLogo-icon img {
+  border: 2px solid #000; /* Set the border color to black */
+}
+
+.retro .sign-out a {
+  background-color: #222; /* Set the background color to a dark color */
+}
+
+/* ... (existing styles) */

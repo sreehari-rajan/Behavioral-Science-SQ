@@ -1,0 +1,234 @@
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('background 2.jpg');
+  background-size: cover; /* This will make the image cover the entire background */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.login-container {
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  width: 350px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+button {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  width: 47%;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e50914cc;
+}
+
+.signup-container {
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  width: 350px;
+  display: none;
+}
+
+.signup-container h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.signup-container select,
+.signup-container input[type="date"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+}
+
+.signup-container select option {
+  background-color: #222;
+}
+
+.signup-container button {
+  margin-top: 20px;
+  font-size: 18px;
+  padding: 8px 15px;
+  border-radius: 30px;
+}
+
+/* Add margin between the login and sign-up buttons */
+.signup-container button:first-child {
+  margin-right: 10px;
+}
+
+.signup-container button:last-child {
+  margin-left: 10px;
+}
+
+.signup-container button:last-child {
+  background-color: #444;
+}
+
+.signup-container button:last-child:hover {
+  background-color: #555;
+}
+
+/* Add some spacing between buttons and the logo */
+.logo {
+  display: block;
+  margin: 0 auto; /* To center the logo horizontally */
+  max-width: 150px; /* Adjust the maximum width based on your logo's size */
+  margin-bottom: 30px; /* Add some spacing between the logo and other elements */
+}
+
+/* ... Your existing CSS styles ... */
+
+/* Add the following CSS to place the signup button next to the login button */
+#signup-btn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  float: right;
+}
+
+#signup-btn:hover {
+  background-color: #e50914cc;
+}
+
+.login-container button,
+.signup-container button {
+  width: 47%; /* Adjust width as needed to match the login button */
+  margin-top: 10px; /* Add some spacing between the login and sign-up buttons */
+  margin-left: 3px; /* Adjust margin to align the sign-up button properly */
+}
+
+
+/* Boxes CSS */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.album-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-box img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+#login-btn {
+  background-color: #be4741;
+  border: none;
+  color: #08240e;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  float: right;
+}
+
+#signup-btn {
+  background-color: #e50914;
+  border: none;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  float: right;
+}
+
+#redirect-Btn {
+  background-color: #6b7994;
+  border: none;
+  color: #d6d6d6;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  float: right;
+}
+
+#cancel-btn {
+  background-color: #be4741;
+  border: none;
+  color: #08240e;
+  padding: 8px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+  float: right;
+}
