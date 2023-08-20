@@ -35,7 +35,7 @@ if (selectedTheme === 'dark') {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-  var countdownSeconds = 8; // Set the countdown time in seconds
+  var countdownSeconds = 13; // Set the countdown time in seconds
   
   // Show the pop-up after a delay
   setTimeout(function () {
